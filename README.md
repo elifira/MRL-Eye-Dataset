@@ -30,7 +30,7 @@ Model eğitimi sırasında bazı teknik sorunlar yaşadım ve eğitim tamamlanam
 - Sınıf dengesizliği problemi mevcut
 - Model aslında "awake" sınıfını neredeyse her zaman tahmin ediyor (recall: 1.00). Bu da demek oluyor ki model çok konservatif davranıyor ve "sleepy" sınıfını neredeyse hiç tahmin etmiyor.
 
-*Neden böyle oldu:**
+Neden böyle olmuş olabilir:
 1. **Sınıf dengesizliği**: Veri setinde "awake" sınıfı daha fazla olabilir
 2. **Model eğitimi yetersiz**: Sadece 1 epoch eğitim yapabildim
 3. **Threshold problemi**: 0.5 threshold'u optimal olmayabilir
@@ -38,7 +38,7 @@ Model eğitimi sırasında bazı teknik sorunlar yaşadım ve eğitim tamamlanam
 
 - Gerçek hayatta kullanılabilmesi için model performansının artırılması şart
 
-**Teknik Detaylar
+## Teknik Detaylar
    
 ### Hiperparametre Optimizasyonu
 7 farklı konfigürasyon test ettim:
@@ -60,8 +60,6 @@ Model eğitimi sırasında bazı teknik sorunlar yaşadım ve eğitim tamamlanam
 - Recall (Sleepy): 0.05
 - F1-Score (Sleepy): 0.10
 
-
-## Teknik Detaylar
 
 - **Framework**: TensorFlow/Keras
 - **Model Boyutu**: ~49.36 MB
@@ -99,7 +97,7 @@ Bu projede CNN temellerini öğrendim, hiperparametre optimizasyonu deneyimi kaz
 - Web arayüzü ile kullanıcı dostu demo
 
 ## Kaggle Notebook
-(https://www.kaggle.com/code/elifia/akbank/edit/run/264008185)
+https://www.kaggle.com/code/elifia/mrl-eye-dataset-cnn/edit
 
 MRL Eye Dataset: https://www.kaggle.com/code/kimkijun7/mrl-eye-dataset-tf-cnn-with-python
 
