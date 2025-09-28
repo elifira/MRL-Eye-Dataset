@@ -28,7 +28,7 @@ Model eğitimi sırasında bazı teknik sorunlar yaşadım ve eğitim tamamlanam
 - Model "awake" sınıfını daha sık tahmin ediyor
 - "Sleepy" sınıfı için yüksek precision (0.95) ama düşük recall (0.05) var
 - Sınıf dengesizliği problemi mevcut
-- Model aslında "awake" sınıfını neredeyse her zaman tahmin ediyor (recall: 1.00). Bu da demek oluyor ki model çok konservatif davranıyor ve "sleepy" sınıfını neredeyse hiç tahmin etmiyor.
+- Model aslında "awake" sınıfını neredeyse her zaman tahmin ediyor (recall: 1.00).
 
 Neden böyle olmuş olabilir:
 1. **Sınıf dengesizliği**: Veri setinde "awake" sınıfı daha fazla olabilir
