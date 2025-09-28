@@ -97,7 +97,7 @@ Bu projede CNN temellerini öğrendim, hiperparametre optimizasyonu deneyimi kaz
 - Web arayüzü ile kullanıcı dostu demo
 
 ## Kaggle Notebook
-https://www.kaggle.com/code/elifia/mrl-eye-dataset-cnn/edit
+https://www.kaggle.com/code/elifia/mrl-eye-dataset-cnn?scriptVersionId=264338901
 
 MRL Eye Dataset: https://www.kaggle.com/code/kimkijun7/mrl-eye-dataset-tf-cnn-with-python
 
